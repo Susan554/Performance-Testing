@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\agtumkur\Documents\VuGen\Scripts\WIKI1
+-IC:\Program Files (x86)\Micro Focus\Virtual User Generator\include
+-ec:\users\agtumkur\documents\vugen\scripts\wiki1\\logfile.log
+c:\users\agtumkur\documents\vugen\scripts\wiki1\\combined_WIKI1.c
+c:\users\agtumkur\documents\vugen\scripts\wiki1\\pre_cci.c

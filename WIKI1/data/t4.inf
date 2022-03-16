@@ -1,0 +1,15 @@
+[t4]
+FileName1=t4.html
+URL1=https://en.wikipedia.org/wiki/.wiki
+Total=3
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_load.css
+URL2=https://en.wikipedia.org/w/load.php?lang=en&modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&only=styles&skin=vector
+FileName3=t4_220px-Dot-wiki_domain_logo.png
+URL3=https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Dot-wiki_domain_logo.png/220px-Dot-wiki_domain_logo.png
+[ProtocolInfo]
+ProtocolId=QTWeb

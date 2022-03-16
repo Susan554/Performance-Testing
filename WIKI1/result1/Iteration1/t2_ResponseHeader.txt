@@ -1,0 +1,23 @@
+HTTP/2.0 200
+Status: 200
+date: Wed, 16 Mar 2022 16:06:18 GMT
+server: mw1328.eqiad.wmnet
+x-content-type-options: nosniff
+p3p: CP="See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P for more info."
+content-language: en
+vary: Accept-Encoding,Cookie,Authorization
+last-modified: Tue, 08 Mar 2022 02:01:34 GMT
+content-type: text/html; charset=UTF-8
+age: 651
+x-cache: cp1083 miss, cp1075 hit/3
+x-cache-status: hit-front
+server-timing: cache;desc="hit-front", host;desc="cp1075"
+strict-transport-security: max-age=106384710; includeSubDomains; preload
+report-to: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+nel: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+permissions-policy: interest-cohort=()
+x-client-ip: 149.168.240.7
+cache-control: private, s-maxage=0, max-age=0, must-revalidate
+accept-ranges: bytes
+content-length: 41262
+

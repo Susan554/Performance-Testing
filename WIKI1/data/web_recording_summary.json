@@ -1,0 +1,653 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-p2p-peerdistex",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-p2p-peerdist",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/vnd.microsoft.icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/svg+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 10,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "Mar-16-2022",
+    "RecordingDuration": 20469,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1647447248,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 491621,
+    "TotalBytesSent": 34174,
+    "TotalRequests": 59,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "wikipedia.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "208.80.154.224",
+          "IncludeInScript": true,
+          "Name": "en.wikipedia.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 31,
+              "EventId": 316,
+              "HttpStatus": 200,
+              "Size": 580,
+              "URL": "https://en.wikipedia.org/api/rest_v1/page/summary/Country_code_top-level_domain"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 301,
+              "HttpStatus": 200,
+              "Size": 36187,
+              "URL": "https://en.wikipedia.org/wiki/Top-level_domain"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 298,
+              "HttpStatus": 200,
+              "Size": 793,
+              "URL": "https://en.wikipedia.org/api/rest_v1/page/summary/Top-level_domain"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 292,
+              "HttpStatus": 200,
+              "Size": 8707,
+              "URL": "https://en.wikipedia.org/w/load.php?lang=en&modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&only=styles&skin=vector"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 286,
+              "HttpStatus": 200,
+              "Size": 18840,
+              "URL": "https://en.wikipedia.org/wiki/.wiki"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 283,
+              "HttpStatus": 200,
+              "Size": 557,
+              "URL": "https://en.wikipedia.org/api/rest_v1/page/summary/.wiki"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 47,
+              "EventId": 276,
+              "HttpStatus": 200,
+              "Size": 452,
+              "URL": "https://en.wikipedia.org/w/extensions/UniversalLanguageSelector/resources/images/language-base20.svg?b7954"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 31,
+              "EventId": 273,
+              "HttpStatus": 200,
+              "Size": 511,
+              "URL": "https://en.wikipedia.org/w/extensions/UniversalLanguageSelector/resources/images/cog-sprite.svg?cca73"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/vnd.microsoft.icon",
+              "DownloadTime": 46,
+              "EventId": 270,
+              "HttpStatus": 200,
+              "Size": 1035,
+              "URL": "https://en.wikipedia.org/static/favicon/wikipedia.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 266,
+              "HttpStatus": 200,
+              "Size": 8578,
+              "URL": "https://en.wikipedia.org/static/images/project-logos/enwiki.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 47,
+              "EventId": 259,
+              "HttpStatus": 200,
+              "Size": 40730,
+              "URL": "https://en.wikipedia.org/w/load.php?lang=en&modules=jquery&skin=vector&version=bh3lo"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 249,
+              "HttpStatus": 200,
+              "Size": 8087,
+              "URL": "https://en.wikipedia.org/w/load.php?lang=en&modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&only=styles&skin=vector"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 46,
+              "EventId": 243,
+              "HttpStatus": 200,
+              "Size": 11621,
+              "URL": "https://en.wikipedia.org/wiki/Wiki_(disambiguation)"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 132,
+              "HttpStatus": 200,
+              "Size": 13702,
+              "URL": "https://en.wikipedia.org/static/images/project-logos/enwiki-1.5x.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 31,
+              "EventId": 109,
+              "HttpStatus": 200,
+              "Size": 50917,
+              "URL": "https://en.wikipedia.org/w/load.php?lang=en&modules=ext.scribunto.logs%7Cext.tmh.OgvJsSupport%7Cjquery%7Cjquery.embedPlayer%7Cmw.MediaWikiPlayer.loader%7Cmw.MwEmbedSupport%2CPopUpMediaTransform%7Cmw.TMHGalleryHook.js&skin=vector&version=7g349"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 32,
+              "EventId": 104,
+              "HttpStatus": 200,
+              "Size": 227,
+              "URL": "https://en.wikipedia.org/w/extensions/Wikibase/client/resources/images/edit.svg?34bc5"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 47,
+              "EventId": 102,
+              "HttpStatus": 200,
+              "Size": 4298,
+              "URL": "https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 78,
+              "EventId": 94,
+              "HttpStatus": 200,
+              "Size": 247,
+              "URL": "https://en.wikipedia.org/w/resources/src/mediawiki.skinning/images/magnify-clip-ltr.svg?8330e"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 47,
+              "EventId": 91,
+              "HttpStatus": 200,
+              "Size": 280,
+              "URL": "https://en.wikipedia.org/w/skins/Vector/resources/common/images/external-link-ltr-icon.svg?48e54"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 47,
+              "EventId": 89,
+              "HttpStatus": 200,
+              "Size": 221,
+              "URL": "https://en.wikipedia.org/w/skins/Vector/resources/skins.vector.styles.legacy/images/user-avatar.svg?b7f58"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 47,
+              "EventId": 86,
+              "HttpStatus": 200,
+              "Size": 154,
+              "URL": "https://en.wikipedia.org/w/skins/Vector/resources/common/images/bullet-icon.svg?d4515"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 31,
+              "EventId": 84,
+              "HttpStatus": 200,
+              "Size": 223,
+              "URL": "https://en.wikipedia.org/w/skins/Vector/resources/common/images/search.svg?bbf78"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 77,
+              "HttpStatus": 200,
+              "Size": 2205,
+              "URL": "https://en.wikipedia.org/static/images/footer/poweredby_mediawiki_88x31.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 75,
+              "HttpStatus": 200,
+              "Size": 2360,
+              "URL": "https://en.wikipedia.org/static/images/footer/wikimedia-button.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 47,
+              "EventId": 70,
+              "HttpStatus": 200,
+              "Size": 20124,
+              "URL": "https://en.wikipedia.org/w/load.php?lang=en&modules=startup&only=scripts&raw=1&skin=vector"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 58,
+              "HttpStatus": 200,
+              "Size": 3700,
+              "URL": "https://en.wikipedia.org/w/load.php?lang=en&modules=site.styles&only=styles&skin=vector"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 34,
+              "HttpStatus": 200,
+              "Size": 9523,
+              "URL": "https://en.wikipedia.org/w/load.php?lang=en&modules=ext.cite.styles%7Cext.pygments%2CwikimediaBadges%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cjquery.makeCollapsible.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&only=styles&skin=vector"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 46,
+              "EventId": 22,
+              "HttpStatus": 200,
+              "Size": 61091,
+              "URL": "https://en.wikipedia.org/wiki/Wiki"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "wikimedia.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "208.80.154.240",
+          "IncludeInScript": true,
+          "Name": "upload.wikimedia.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 314,
+              "HttpStatus": 200,
+              "Size": 486,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 312,
+              "HttpStatus": 200,
+              "Size": 128,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Disc_Plain_blue_dark.svg/4px-Disc_Plain_blue_dark.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 310,
+              "HttpStatus": 200,
+              "Size": 1733,
+              "URL": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 308,
+              "HttpStatus": 200,
+              "Size": 11361,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/DNS_schema.svg/220px-DNS_schema.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 296,
+              "HttpStatus": 200,
+              "Size": 9314,
+              "URL": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Dot-wiki_domain_logo.png/220px-Dot-wiki_domain_logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 257,
+              "HttpStatus": 200,
+              "Size": 1974,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/40px-Wiktionary-logo-en-v2.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 255,
+              "HttpStatus": 200,
+              "Size": 729,
+              "URL": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 253,
+              "HttpStatus": 200,
+              "Size": 703,
+              "URL": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 241,
+              "HttpStatus": 200,
+              "Size": 1190,
+              "URL": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/20px-Commons-logo.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 237,
+              "HttpStatus": 200,
+              "Size": 6063,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Development_of_%22Mathe_f%C3%BCr_Nicht-Freaks%22_from_Sep_2009_to_June_2016.webm/220px--Development_of_%22Mathe_f%C3%BCr_Nicht-Freaks%22_from_Sep_2009_to_June_2016.webm.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 230,
+              "HttpStatus": 200,
+              "Size": 1253,
+              "URL": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Wiktionary-logo-v2.svg/27px-Wiktionary-logo-v2.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 228,
+              "HttpStatus": 200,
+              "Size": 2582,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/45px-Sound-icon.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 224,
+              "HttpStatus": 200,
+              "Size": 2170,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Crystal_Clear_app_linneighborhood.svg/28px-Crystal_Clear_app_linneighborhood.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 219,
+              "HttpStatus": 200,
+              "Size": 42509,
+              "URL": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/EnglishWikipedia_29June2017.png/220px-EnglishWikipedia_29June2017.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 214,
+              "HttpStatus": 200,
+              "Size": 42492,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/History_Comparison_Example_%28Vector%29.png/220px-History_Comparison_Example_%28Vector%29.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 210,
+              "HttpStatus": 200,
+              "Size": 12814,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/HNL_Wiki_Wiki_Bus.jpg/220px-HNL_Wiki_Wiki_Bus.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 208,
+              "HttpStatus": 200,
+              "Size": 3698,
+              "URL": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 46,
+              "EventId": 206,
+              "HttpStatus": 200,
+              "Size": 1169,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/20px-Sound-icon.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 204,
+              "HttpStatus": 200,
+              "Size": 6579,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Ward_Cunningham%2C_Inventor_of_the_Wiki.webm/220px--Ward_Cunningham%2C_Inventor_of_the_Wiki.webm.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 198,
+              "HttpStatus": 200,
+              "Size": 28560,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Wikitext-wiki_markup-wikipedia.png/220px-Wikitext-wiki_markup-wikipedia.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 196,
+              "HttpStatus": 200,
+              "Size": 375,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 191,
+              "HttpStatus": 200,
+              "Size": 435,
+              "URL": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 46,
+              "EventId": 189,
+              "HttpStatus": 200,
+              "Size": 965,
+              "URL": "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/16px-Symbol_list_class.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 185,
+              "HttpStatus": 200,
+              "Size": 613,
+              "URL": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Symbol_na_class.svg/16px-Symbol_na_class.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 183,
+              "HttpStatus": 200,
+              "Size": 1006,
+              "URL": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Symbol_category_class.svg/16px-Symbol_category_class.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 180,
+              "HttpStatus": 200,
+              "Size": 1599,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/MediaWiki-2020-icon.svg/27px-MediaWiki-2020-icon.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 178,
+              "HttpStatus": 200,
+              "Size": 472,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/27px-Wikidata-logo.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 174,
+              "HttpStatus": 200,
+              "Size": 905,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/27px-Wikiversity_logo_2017.svg.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 172,
+              "HttpStatus": 200,
+              "Size": 1297,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/27px-Wikinews-logo.svg.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 47,
+              "EventId": 168,
+              "HttpStatus": 200,
+              "Size": 272,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 166,
+              "HttpStatus": 200,
+              "Size": 225,
+              "URL": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Icon_pdf_file.png"
+            }
+          ],
+          "SSLCipher": "ECDHE-ECDSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

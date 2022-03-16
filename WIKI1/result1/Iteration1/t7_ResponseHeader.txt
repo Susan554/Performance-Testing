@@ -1,0 +1,33 @@
+HTTP/2.0 200
+Status: 200
+date: Wed, 16 Mar 2022 13:03:41 GMT
+content-location: https://en.wikipedia.org/api/rest_v1/page/summary/Country_code_top-level_domain
+cache-control: s-maxage=1209600, max-age=300
+vary: Accept-Encoding
+server: ATS/8.0.8
+etag: W/"1076526462/fddc5fc0-a2d3-11ec-8b54-204f53af204c"
+content-type: application/json; charset=utf-8; profile="https://www.mediawiki.org/wiki/Specs/Summary/1.5.0"
+content-language: en
+access-control-allow-origin: *
+access-control-allow-methods: GET,HEAD
+access-control-allow-headers: accept, content-type, content-length, cache-control, accept-language, api-user-agent, if-match, if-modified-since, if-none-match, dnt, accept-encoding
+access-control-expose-headers: etag
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+referrer-policy: origin-when-cross-origin
+x-xss-protection: 1; mode=block
+content-security-policy: default-src 'none'; frame-ancestors 'none'
+x-content-security-policy: default-src 'none'; frame-ancestors 'none'
+x-webkit-csp: default-src 'none'; frame-ancestors 'none'
+age: 11607
+x-cache: cp1083 hit, cp1075 hit/45
+x-cache-status: hit-front
+server-timing: cache;desc="hit-front", host;desc="cp1075"
+strict-transport-security: max-age=106384710; includeSubDomains; preload
+report-to: { "group": "wm_nel", "max_age": 86400, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+nel: { "report_to": "wm_nel", "max_age": 86400, "failure_fraction": 0.05, "success_fraction": 0.0}
+permissions-policy: interest-cohort=()
+x-client-ip: 149.168.240.7
+accept-ranges: bytes
+content-length: 1855
+

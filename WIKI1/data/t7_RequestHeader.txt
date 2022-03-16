@@ -1,0 +1,13 @@
+GET /api/rest_v1/page/summary/Country_code_top-level_domain HTTP/1.1
+Accept: application/json; charset=utf-8; profile="https://www.mediawiki.org/wiki/Specs/Summary/1.2.0"
+Accept-Language: en
+X-Requested-With: XMLHttpRequest
+Referer: https://en.wikipedia.org/wiki/Top-level_domain
+Accept-Encoding: gzip, deflate, peerdist
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: en.wikipedia.org
+Connection: Keep-Alive
+Cookie: WMF-Last-Access=16-Mar-2022; enwikimwuser-sessionId=1651bf7814c6327f794a; WMF-Last-Access-Global=16-Mar-2022; GeoIP=US:NC:Raleigh:35.76:-78.60:v4
+X-P2P-PeerDist: Version=1.1
+X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+

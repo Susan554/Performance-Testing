@@ -1,0 +1,50 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: Wiki",
+                "infFile": "t1.inf",
+                "time": 1647447428187
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Link: Wiki (disambiguation)",
+                "infFile": "t2.inf",
+                "time": 1647447428583
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: .wiki",
+                "infFile": "t3.inf",
+                "time": 1647447428689
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: .wiki_2",
+                "infFile": "t4.inf",
+                "time": 1647447428897
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Top-level_domain",
+                "infFile": "t5.inf",
+                "time": 1647447428982
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Top-level_domain_2",
+                "infFile": "t6.inf",
+                "time": 1647447429249
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: Country_code_top-level_domain",
+                "infFile": "t7.inf",
+                "time": 1647447429330
+            }
+        ],
+        "transactions": []
+    }
+]

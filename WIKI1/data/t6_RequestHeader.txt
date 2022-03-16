@@ -1,0 +1,12 @@
+GET /wiki/Top-level_domain HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: https://en.wikipedia.org/wiki/.wiki
+Accept-Language: en-US,en;q=0.5
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate, peerdist
+Host: en.wikipedia.org
+Connection: Keep-Alive
+Cookie: WMF-Last-Access=16-Mar-2022; enwikimwuser-sessionId=1651bf7814c6327f794a; WMF-Last-Access-Global=16-Mar-2022; GeoIP=US:NC:Raleigh:35.76:-78.60:v4
+X-P2P-PeerDist: Version=1.1
+X-P2P-PeerDistEx: MinContentInformation=1.0, MaxContentInformation=2.0
+
